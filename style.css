@@ -1,0 +1,31 @@
+body {
+	background: linear-gradient(90deg, #40085e, #a723ed, black, #a723ed, #40085e);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	transform: translate3d(0, 0, 0);
+}
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+a {
+        color: white; /* Default link color */
+        text-decoration: none; /* Remove underline */
+}
+a:hover {
+        color: #ccc; /* Lighter shade on hover */
+}
+a:visited {
+        color: #fff; /* Color for visited links */
+}
